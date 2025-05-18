@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@plugin "daisyui" ;
+
+@theme {
+    --color-darkgray: #5E5E5E;
+    --color-linkblue: "#0A66C2";
+  }
+
+  input {
+    border-radius: 10px;
+    background: white;
+    border: 1px solid rgb(176, 176, 176);
+    color: rgb(119, 118, 118);
+  }
+
+  input::placeholder {
+    color: rgb(100, 100, 100);
+  }
+
+  .linkedBtn{
+    color: white ;
+    background-color:#0A66C2 ;
+  }
+
+  .linkedBtn2{
+    color: #0A66C2 ;
+    
+  }
+  
+  .suggest{
+    border:#0A66C2 1px solid ;
+    color: #0A66C2; 
+  }
+
+  .suggest:hover{
+    color:white;
+    background-color:#0A66C2 ;
+  }
